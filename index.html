@@ -32,13 +32,13 @@
     <main>
             <section>
                 <!-- 1st card start -->
-                <div class="hero min-h-screen">
+                <div class="border border-slate-300 rounded-lg content-center mt-4 ">
                     <div class="hero-content flex-col lg:flex-row">
                       <img
                         src="./assets/noakhali.png"
-                        class="max-w-sm rounded-lg shadow-2xl" />
-                      <div>
-                        <div class="">
+                        class=""  />
+                      <div class="">
+                        <div class=" border rounded-xl border-slate-300 w-[150px] h-[40px] flex justify-center items-center gap-3 px-1 py-2 pb-2" >
                             <img src="./assets/coin.png" alt="">
                             <h1 class="text-base" id="Donation-For-Noakhali">6700 BDT</h1>
                         </div>
@@ -46,28 +46,30 @@
                         <p class="py-6">
                             The recent floods in Noakhali have caused significant damage to homes  infrastructure. Your donation will help provide essential supplies and  to those affected by this disaster. Every contribution, big or small, makes  difference. Please join us in supporting the relief efforts and making a positive impact on the lives of those in need.
                         </p>
-                        <input type="text" placeholder="Write Donation Amount" class="input input-bordered w-[520px]" id="AmountOfDonation1" /> <br>
-                        <p id="Error-amont1" class="text-red-500 text-xl mt-1 hidden">Inavlid Amount</p>
-                        <button id="Button-1" class="btn bg-[#B4F461] w-[520px] h-[55px] mt-3 text-xl" onclick="my_modal_1.showModal()">Donate</button>
-                       
-                        <dialog id="my_modal_1" class="modal">
-                        <div class="modal-box grid grid-cols-1 justify-items-center">
-                            <h3 class="text-3xl font-bold">Congrates</h3>
-                            <img src="./assets/coin.png" alt="" class="w-[50px] h-[50px] mt-2">
-                            <p class="py-4 text-[#111111] opacity-[.7] text-xl">You Have Donated For Humankind </p>
-                            <h3 class="text-2xl font-bold">Succesfully</h3>
-                            <div class="modal-action">
-                            <form method="dialog">
-                                <!-- if there is a button in form, it will close the modal -->
-                                <button class="btn text-base">Close Infromation</button>
-                            </form>
-                            </div>
-                        </div>
-                        </dialog>
+                        <input type="text" placeholder="Write Donation Amount" class="input input-bordered lg:w-[520px] w-[350px]" id="AmountOfDonation1" /> <br>
+                         <p id="Error-amont1" class="text-red-500 text-xl mt-1 hidden">Inavlid Amount</p>
+                        <button id="Button-1" class="btn bg-[#B4F461] lg:w-[520px] w-[350px] h-[55px] mt-3 text-xl" onclick="my_modal_1.showModal()">Donate<button>
+
+                <dialog id="my_modal_1" class="modal">
+                <div class="modal-box grid grid-cols-1 justify-items-center">
+                    <h3 class="text-3xl font-bold">Congrates</h3>
+                    <img src="./assets/coin.png" alt="" class="w-[50px] h-[50px] mt-2">
+                    <p class="py-4 text-[#111111] opacity-[.7] text-xl">You Have Donated For Humankind </p>
+                    <h3 class="text-2xl font-bold">Succesfully</h3>
+                    <div class="modal-action">
+                    <form method="dialog">
+                        <!-- if there is a button in form, it will close the modal -->
+                        <button class="btn text-base">Close Infromation</button>
+                    </form>
+                    </div>
+                </div>
+                </dialog>
                       </div>
                     </div>
                   </div>
                   <!-- first card end -->
+                   <!-- second card start  -->
+
             </section>
        
     </main>
