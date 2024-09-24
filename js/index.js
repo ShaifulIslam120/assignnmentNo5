@@ -49,7 +49,7 @@ document.getElementById('Button-2').addEventListener('click',function(event){
     const DonationForfeni=getvaluedbyId1('Donation-For-Feni')
     if(AmountOfDonation2<=0 || AmountOfDonation2>MyBalance2 || isNaN(AmountOfDonation2)){
         document.getElementById('Error-amont2').classList.remove("hidden");
-        document.getElementById('my_modal_5').classList.add("hidden")
+        document.getElementById('my_modal_2').classList.add("hidden")
         return;
      }
     const newblance2= MyBalance2-AmountOfDonation2
@@ -73,7 +73,7 @@ document.getElementById('Button-3').addEventListener('click',function(event){
     const DonationForStd=getvaluedbyId1('Donation-For-Std')
     if(AmountOfDonation3<=0 || AmountOfDonation3>MyBalance3 || isNaN(AmountOfDonation3)){
         document.getElementById('Error-amont3').classList.remove("hidden");
-        document.getElementById('my_modal_2').classList.add("hidden")
+        document.getElementById('my_modal_3').classList.add("hidden")
         return;
      }
     const newblance3=MyBalance3-AmountOfDonation3
